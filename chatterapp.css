@@ -96,7 +96,7 @@
 	
 	/*1 Pt. w3w locations have primary text color.*/
 	.message a{
-		color: black;
+		color: #303F9F;
 	}
 /*1 Pt. Message width is comparable to sample solution.*/
 /*Message container (width 80%; margin-bottom 8px)
