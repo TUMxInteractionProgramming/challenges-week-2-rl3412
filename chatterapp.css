@@ -1,0 +1,137 @@
+/*GLOBAL*/
+
+	/* Assign a very light #background color.*/
+        /*Change all fonts to Arial and use sans-serif as a fallback option.*/
+	body{
+		background-color: whitesmoke;
+		font-family: arial,sans-serif;
+
+	}
+	/* tab bar, channel list title location, metadata locaation, 5 min button*/
+	button,small,strong{
+		text-transform: uppercase;
+	}
+	*{
+		margin:0;
+		padding:0;
+	}
+	/*highlighting the tab button and selected channel*/
+/*	1 Pt. Current channel is highlighted.
+*/
+/*1 Pt. Tab ‘New’ highlighted.
+*/
+	.selected{
+		color:#303F9F;
+	}
+/*APP BAR*/
+/*Primary color : #303F9F  
+	primary text : white*/
+	h1{
+		color: white;
+		background-color: #303F9F;
+	}
+	/*Resize the image to a height of 56px*/
+	#moocus{
+		height: 56px;
+	}
+	/*CHANNELS LIST*/
+	/*1 Pt. The channel list has a white background and no bullet points.*/
+	ul{
+		background-color: white;
+		list-style-type: none;
+	}
+	/*1 Pt. Channel list is comparable to solution. Compare tile height, font-size, all tiles should be same height.*/
+	/*1 Pt. Tiles separated by thin light-grey lines.*/
+	li{
+		border: 1px solid #F5F5F5;
+		padding: 16px;
+		font-size: 16px;
+		box-sizing: border-box;
+	}
+	#selected-channel{
+		border-left:4px solid  #303F9F;
+	}
+	ul li img {
+
+    vertical-align: middle;
+}
+	/*TAB BAR, MESSGES*/
+
+	/*1 Pt. Background color of container element is white. */
+		/*1 Pt. Background color of messages is white. */
+
+	
+	#button{
+				background-color: white;
+
+
+	}
+	/*1 Pt. Space between content (icon/text) and button border comparable to solution.
+*/
+	/*1 Pt. Button height comparable to solution.*/
+	/*1 Pt. Buttons distributed equally.*/
+
+	.tab-button{
+		background-color: white;
+		border: 0;
+		width:33%;
+		text-align: center;
+		font-size: 13px;
+		height: 72px;
+		padding: 16px;
+		margin: auto;
+
+	}
+/*1 Pt. Tab ‘New’ highlighted.*/
+	#selected-button{
+		border-bottom:4px solid  #303F9F;
+	}
+	#button span:after {
+    content: "\a ";
+    white-space: pre;
+    padding-bottom: 4px;
+    margin: auto;
+}
+	/*MESSAGES*/
+	
+	/*1 Pt. w3w locations have primary text color.*/
+	.message a{
+		color: black;
+	}
+/*1 Pt. Message width is comparable to sample solution.*/
+/*Message container (width 80%; margin-bottom 8px)
+*/
+/*1 Pt. Alignment of ‘all’ messages.
+*/.message{
+	width: 80%;
+	margin-bottom: 8px;
+	margin-left: 2.5%;
+}
+/*1 Pt. Alignment of .own messages.
+*/
+.own{
+	margin-left: 17.5%;
+}
+/*Message metadata (font-size medium)
+*/
+.message h4{
+		font-size: medium;
+	}
+/*	Message text (background white, padding 16 px)
+*/
+/*1 Pt. Space between chat text and paragraph border.
+*/
+.message p{
+	background-color: white;
+	padding: 16px;
+}
+/*Message emphasised information (font size larger; font style normal)*/
+	.message em{
+		font-size: larger;
+		font-style: normal;
+	}
+	
+	 /*The +5 min buttons in each message container are important interactive elements. Use accent color for the background and accent color text for text. You can assign the same colors to the channel buttons.*/
+	.min5button{
+		background-color: #CDDC39;
+	}
